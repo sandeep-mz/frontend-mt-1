@@ -20,12 +20,6 @@ nav {
 
 .logo-title {
   color: #012555;
-  font-family: "Bai Jamjuree", sans-serif;
-  font-family: "DM Sans", sans-serif;
-  font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Sofia Sans", sans-serif;
   font-size: 21.714px;
   font-style: normal;
   font-weight: 600;
@@ -40,12 +34,6 @@ nav {
 
 .nav-list>li>a {
   color: var(--Gray-2, #4f4f4f);
-  font-family: "Bai Jamjuree", sans-serif;
-  font-family: "DM Sans", sans-serif;
-  font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Sofia Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -225,7 +213,8 @@ header {
 }
 
 .form>button:hover {
-  scale: 1.1;
+  background-color: #acacac;
+  color: #c6daf5;
 }
 
 .form>p:last-child {
@@ -504,11 +493,20 @@ header {
 }
 
 .buttons>button:nth-child(1):hover {
-  scale: 1.1;
+  
+  background-color: #e1e5ec;
 }
 
 .buttons>button:nth-child(2):hover {
-  scale: 1.1;
+  background-color: rgb(106, 144, 226);
+}
+
+.btn-lg {
+    font-size: 25px !important; /* Increase the font size as desired */
+    padding: 15px 30px;
+    
+    
+    /* Increase padding to make the button larger */
 }
 
 /* styling hiring partners section */
@@ -564,28 +562,16 @@ header {
   text-align: center;
 }
 
-.companies {
-  width: 90%;
-  margin: auto;
-}
-
-.companies>img {
+.table>tr>td>img {
   margin: 20px;
-  transition: scale 1s linear;
+  background-color: #818d9d;
 }
 
-.companies>img:hover {
-  scale: 1.2;
+.table>tr>td>img:hover {
+  background-color: #657891;
+  cursor: pointer;
 }
 
-.button {
-  margin-top: 30px;
-  transition: scale 2s linear;
-}
-
-.button>img:hover {
-  scale: 1.2;
-}
 
 /* styling students section */
 
