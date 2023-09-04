@@ -236,8 +236,9 @@ p{
     margin-right: -10rem;
     border-radius: 18px;
     background: #fff;
-    position: relative;   
+    position: relative;  
 }
+
 /* Top-Left Corner */
 .form::before {
     content: "";
@@ -364,15 +365,15 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
   background: #ecf8ff;
   margin-top: 100px;
 }
 
 .courses-offered>div:first-child>p {
   text-align: center;
-  font-family: ABeeZee;
-  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
@@ -387,7 +388,7 @@ p{
 .courses-offered>div:first-child>h1 {
   color: #2f80ed;
   text-align: center;
-  font-family: ABeeZee;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -396,15 +397,24 @@ p{
 }
 
 .card1 {
-  max-width: 498px;
+  max-width: 480px;
   height: 563px;
   border-radius: 9px;
   border: 2px solid #2f80ed;
   background: #fff;
   padding: 10px;
   margin-left: 15px;
+  position: relative;
 }
-
+.badge {
+    position: absolute;
+    top: -11px; /* Adjust the distance from the top */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* Text color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 200;
+}
 .card1>div:first-child>img {
   margin: -60px 0px 0px 20px;
 }
@@ -509,7 +519,7 @@ p{
   max-width: 498px;
   height: 563px;
   border-radius: 9px;
-  border: 2px solid #2f80ed;
+  border: 2px solid #dcddde;
   background: #fff;
   padding: 30px 10px 10px 10px;
   margin-left: 15px;
@@ -681,17 +691,11 @@ p{
   text-align: center;
 }
 
-.table>tr>td>img {
-  margin: 20px;
-  background-color: #818d9d;
+.tably>tr>td>img{
+    margin: 10px;
+    justify-content: space-between;
+    width: 100%;
 }
-
-.table>tr>td>img:hover {
-  background-color: #657891;
-  cursor: pointer;
-}
-
-
 /* styling students section */
 
 .students {
