@@ -114,18 +114,96 @@ header {
   margin-left: 30px;
 }
 
+/* ---------this is 100% wlaa section --------- */
+
+.container {
+    position: relative; /* Required for absolute positioning of the arrow */
+}
 .pic {
-  position: relative;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+    padding: 15px 20px;
+    height: 110px;
+    width: 50rem;
+}
+.arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px; /* Adjust the width and height of the arrow as needed */
+    height: 20px;
+}
+.fimg {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
 }
 
-.pic>img:first-child {
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: 50;
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 116, 37);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: #2b2f34;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.icon-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 171, 52);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.icon-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 230, 52);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.icon-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 201, 242);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.icon {
+    font-size: 24px;
+    color: white;
 }
 
-.pic>img:last-child {
+h3 {
+    /* Center-align the text */
+
+    margin-top: 10px;
+    margin-left: 12px;
+    font-family: ABeeZee;
+    font-style: italic;
+    font-weight: bold;
+
+}
+p{
+    text-indent : 1em ;
+}
+.pic>img {
   position: absolute;
   top: -30px;
   right: -30px;
